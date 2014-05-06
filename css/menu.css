@@ -1,0 +1,253 @@
+#navigation {
+    height: 53px;
+    width: 980px;
+    clear: both;
+    background:url(../images/nav-bg.gif) left top repeat-x;
+	border-top: 4px solid #ec3a4a;
+	margin: 0 auto;
+	border-radius: 15px;
+}
+.nav {
+	margin:0px auto;
+	padding:0px 0px 0px 0px;
+	width:980px;
+	height:53px;
+	clear:both;       
+}
+
+#menu {
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	list-style:none;
+}
+
+#menu li {
+	margin:0px 0px 0px 0px;
+	padding:4px 15px 5px;
+	float:left;
+	display:block;
+	text-align:center;
+	position:relative;
+}
+
+#menu li:hover {
+	/* Background color and gradients */
+	background: #ec3a4a;
+/*	background: -moz-linear-gradient(top, #e46305, #de5a03);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e46305), to(#de5a03));*/
+	
+}
+
+#menu li.home:hover{
+	background:none;
+}
+
+#menu li a {
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	line-height:43px;
+	color:#333333;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+#menu li:hover a {
+}
+
+.dropdown_1column, 
+.dropdown_2columns, 
+.dropdown_3columns, 
+.dropdown_4columns,
+.dropdown_5columns {
+	margin:0px auto;
+	float:left;
+	position:absolute;
+	left:-999em; /* Hides the drop down */
+	text-align:left;
+	padding:10px 0px 10px 0px;
+	border:1px solid #ec3a4a;
+	background:#ffffff;
+}
+
+.dropdown_1column {width: 140px;}
+.dropdown_2columns {width: 280px;}
+.dropdown_3columns {width: 420px;}
+.dropdown_4columns {width: 940px; padding: 10px;}
+.dropdown_5columns {width: 600px;}
+
+#menu li:hover .dropdown_1column, 
+#menu li:hover .dropdown_2columns, 
+#menu li:hover .dropdown_3columns,
+#menu li:hover .dropdown_4columns,
+#menu li:hover .dropdown_5columns {
+	left:-100px;
+	top:auto;
+}
+
+.col_1,
+.col_2,
+.col_3,
+.col_4,
+.col_5 {
+	display:inline;
+	float: left;
+	position: relative;
+}
+.col_1 {width:300px; border-right:dashed 1px #c9c9c9; min-height:230px; padding: 0px 0px 0px 10px; }
+.col_1:last-child { border: none 0px; }
+.col_2 {width:240px; border-right:dashed 1px #c9c9c9; min-height:230px;}
+.col_3 {width:242px; text-align:center; padding:60px 0px 0px 0px;}
+.col_4 {width:550px;}
+.col_5 {width:690px;}
+
+#menu .menu_right {
+	float:right;
+	margin-right:0px;
+}
+
+.menu_img{
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	float:left;
+	width:86px;
+}
+
+.menu_content{
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	float:left;
+	width:134px;
+}
+
+#menu h2 {
+	font-size:21px;
+	margin:0 0 0 0;
+	padding-bottom:14px;
+	border-bottom:1px solid #666666;
+}
+
+#menu h3 {
+	font-size:14px;
+	color:#fe5915;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 7px 0px;
+	text-align:left;
+}
+
+#menu img {
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+
+#menu p {
+	line-height:18px;
+	font-size:12px;
+	color:#727272;
+	text-align:left;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 15px 0px;
+}
+
+#menu p a{
+	line-height:18px;
+	font-size:11px;
+	color:#0ca6f5;
+	text-align:left;
+	text-decoration:none;
+	font-weight:normal;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+
+#menu p a:hover{
+	text-decoration:underline;
+}
+
+#menu p span{
+	line-height:18px;
+	font-size:11px;
+	color:#ef4b07;
+	text-align:left;
+	text-decoration:none;
+	font-weight:bold;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 5px;
+}
+
+#menu li ul {
+	list-style:none;
+	padding:0 10px 0 10px;
+	margin:0 0 0 0;
+}
+
+#menu li ul li {
+	font-family:Arial, Helvetica, sans-serif;
+	padding:0;
+	margin:0;
+	float:none;
+	/*width:252px;*/
+	height:100%;
+	overflow:hidden;
+	border-bottom:dashed 1px #c9c9c9;
+}
+
+#menu li ul li:hover {
+	background:none;
+}
+
+#menu li ul li ul{
+	list-style:none;
+	padding:0 0px 0 0px;
+	margin:0 0 0 0;
+	border: none;
+}
+
+#menu li ul li ul li{
+	list-style:none;
+	padding:0 0px 0 0px;
+	margin:0 0 0 0;
+	border: none;
+	text-align:left;
+}
+
+#menu li ul li ul li a{
+	padding:0 0px 0 0px;
+	margin:0 0 0 0;
+	font-size:11px;
+	line-height:22px;
+	color:#878787;
+	font-weight:bold;
+	text-decoration:none;
+	text-align:left;
+}
+
+#menu .col_1 img {
+    float: left;
+    display: block;
+    margin: 0px 10px 0px 0px;
+}
+#menu .col_1 ul { 
+    float: left;
+    width: 60%;
+    border-left:dashed 1px #c9c9c9;
+}
+#menu .col_1 ul li {
+    float: left;
+    width: 100%;
+    border-bottom:dashed 1px #c9c9c9;
+}
+#menu .col_1 ul li img {
+    display: block;
+    float: left;
+    width: 35px;
+    height: auto;
+    margin: 0px 10px 10px 0px;
+}
+#menu .col_1 ul li a {
+    display: block;
+    float: left;
+    color: #EC3A4A;
+    font-weight: bold;
+}
